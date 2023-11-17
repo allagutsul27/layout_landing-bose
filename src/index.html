@@ -7,7 +7,8 @@
     <link rel="icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
-    <script src="scripts/main.js" defer></script>
+
+    <script type="module" src="scripts/main.js" defer></script>
   </head>
   <body class="page__content page__content--with-menu">
     <header class="header" id="main">
@@ -66,7 +67,7 @@
     <main>
       <section class="page__section recommended" id="recommended">
         <div class="container">
-          <h2 class="title">Recommended</h2>
+          <h2 class="title recommended__title">Recommended</h2>
 
           <div class="recommended__items">
             <div class="recommended__item">
@@ -91,7 +92,8 @@
               <p class="recommended__item-price">$ 149.00</p>
             </div>
 
-            <div class="recommended__item">
+            <div class="recommended__item" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
               <img
                 class="recommended__item-image"
                 src="images/recommended/3.png"
@@ -107,7 +109,7 @@
 
       <section class="page__section categories" id="categories">
         <div class="container">
-          <h2 class="title">Browse Bose <br> products by category</h2>
+          <h2 class="categories__title title">Browse Bose <br> products by category</h2>
           <div class="categories__row">
             <div class="categories__image-container">
               <img
@@ -123,7 +125,7 @@
               >
             </div>
           </div>
-          <h3 class="categories__title">Headphones & earbuds</h3>
+          <h3 class="categories__subtitle">Headphones & earbuds</h3>
 
           <div class="categories__row">
             <div class="categories__image-container">
@@ -140,7 +142,7 @@
               >
             </div>
           </div>
-          <h3 class="categories__title">Speakers</h3>
+          <h3 class="categories__subtitle">Speakers</h3>
 
           <div class="categories__row categories__row--special">
             <div class="categories__image-container">
@@ -156,7 +158,7 @@
               >
             </div>
           </div>
-          <h3 class="categories__title">Audio sunglasses</h3>
+          <h3 class="categories__subtitle">Audio sunglasses</h3>
           <a href="#categories" class="btn categories__btn">View all</a>
         </div>
       </section>
@@ -183,7 +185,7 @@
 
       <section class="page__section contacts" id="contacts">
         <div class="container">
-          <h2 class="title">Contact us</h2>
+          <h2 class="title contacts__title">Contact us</h2>
           <div class="contacts__content">
 
             <form
