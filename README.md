@@ -1,4 +1,4 @@
-#Project "BOSE"
+# Project "BOSE"
 
 This project is a web page created with HTML and CSS using the BEM methodology. The site adapts gracefully to various devices and screen sizes, ensuring a user-friendly interface whether accessed from a computer or a smartphone.
 
@@ -10,7 +10,7 @@ This project is a single-page website that embodies an elegant and modern design
 
 The following technologies and tools were used in this project:
 
-### Clean HTML, CSS, JavaScript, and BEM Methodology:
+#### Clean HTML, CSS, JavaScript, and BEM Methodology:
 The project embraces clean and efficient code, leveraging the latest features of HTML5, CSS3, and JavaScript ES6+. Additionally, it follows the Block Element Modifier (BEM) methodology for a modular and maintainable structure.
 
 ### Sass Preprocessor:
@@ -24,7 +24,7 @@ Powered by the GSAP library, the site comes to life with scroll-triggered animat
 
 ## Demo link
 
-You can view a live demo site at this link:  [BOSE](https://github.com/allagutsul27/layout_landing-bose)
+You can view a live demo site at this link:  [BOSE](https://github.com/allagutsul27.github.io/layout_landing-bose/)
 
  ## Design Mockup
 
