@@ -100,7 +100,7 @@ gsap.from('.categories__row', {
 gsap.from('.buy__title', {
   scrollTrigger: {
     trigger: '.buy',
-    start: '-300 0',
+    start: '-200 0',
   },
   duration: 1,
   y: -250,
@@ -110,7 +110,7 @@ gsap.from('.buy__title', {
 gsap.from('.buy__benefits', {
   scrollTrigger: {
     trigger: '.buy',
-    start: '-300 0',
+    start: '-200 0',
   },
   duration: 1,
   x: 250,

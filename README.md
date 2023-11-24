@@ -24,13 +24,13 @@ Powered by the GSAP library, the site comes to life with scroll-triggered animat
 
 ## Demo link
 
-You can view a live demo site at this link:  [BOSE](https://github.com/allagutsul27.github.io/layout_landing-bose/)
+You can view a live demo site at this link:  [BOSE](https://allagutsul27.github.io/layout_landing-bose/)
 
  ## Design Mockup
 
 To view the design mockup for this project, click on the following link: [Design Mockup](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6703-88&mode=design&t=YdfQA62BsivNDe2O-0).
 
-## Launching the Project.
+## Launching the Project
 
 1. Clone this repository to your computer.
 2. Use `npm install` or `yarn install` to install all project dependencies.
