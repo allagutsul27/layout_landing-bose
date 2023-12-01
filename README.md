@@ -19,9 +19,6 @@ I used Sass to make stylesheets more organized and easier to manage.
 ### Google Fonts and Favicon:
 The implementation of the Inter font from Google Fonts enhances the visual appeal of text elements. The favicon contributes to branding, making the site easily recognizable in the browser's address bar.
 
-### GSAP Animations:
-Powered by the GSAP library, the site comes to life with scroll-triggered animations and dynamic property changes, delivering an interactive user experience.
-
 ## Demo link
 
 You can view a live demo site at this link:  [BOSE](https://allagutsul27.github.io/layout_landing-bose/)

@@ -45,7 +45,7 @@
     width: 130px;
     height: 17px;
     display: flex;
-    margin-right: 150px;
+    margin-right: 100px;
 
     @include onTablet {
       width: 190px;
@@ -58,7 +58,7 @@
     margin-right: 5px;
     text-decoration: none;
     position: relative;
-    background: url(./../images/header/Icon-Phone.png) center no-repeat;
+    background: url(./../images/header/Icon-Phone.svg) center no-repeat;
     background-size: $icon-size $icon-size;
     @include square($icon-size);
     transition: all 0.3s;
@@ -93,7 +93,7 @@
 
   &__menu-opener {
     display: block;
-    background: url(./../images/header/Icon-Burger-menu.png) center no-repeat;
+    background: url(./../images/header/Icon-Burger-menu.svg) center no-repeat;
     background-size: $icon-size $icon-size;
     @include square($icon-size);
     transition: all 0.3s;

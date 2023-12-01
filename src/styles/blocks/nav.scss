@@ -7,7 +7,7 @@
   @include onTablet {
     padding: 52px 0 0;
   }
-  
+
   @include onDesctop {
     padding: 48px 0 0;
   }
@@ -18,12 +18,12 @@
     align-items: center;
     margin-bottom: 55px;
   }
-  
+
   &__logo-image {
     width: 130px;
     height: 17px;
     display: block;
-    
+
     @include onTablet {
       height: 24px;
       width: 190px;
@@ -32,10 +32,10 @@
 
   &__menu-close {
     display: block;
-    background: url(./../images/header/Icon-Close.png) center no-repeat;
+    background: url(./../images/header/Icon-Close.svg) center no-repeat;
     background-size: $icon-size $icon-size;
     @include square($icon-size);
-    
+
     @include onTablet {
       background-size: $big-icon-size $big-icon-size;
       @include square($big-icon-size);
@@ -56,7 +56,7 @@
     margin-bottom: 32px;
     border-bottom: 1px solid transparent;
     transition: border-color 0.3s;
-    
+
     &:hover {
       border-color: $main-color;
     }
