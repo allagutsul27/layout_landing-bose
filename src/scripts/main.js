@@ -96,7 +96,7 @@ gsap.from('.categories__row', {
     opacity: 1,
   },
   duration: 0.8,
-  x: 150,
+  x: 50,
   opacity: 0,
   delay: 0.5,
   stagger: 2,
@@ -120,7 +120,7 @@ gsap.from('.buy__benefits', {
     opacity: 1,
   },
   duration: 1,
-  x: 250,
+  x: 150,
   opacity: 0,
 });
 
@@ -131,7 +131,7 @@ gsap.from('.contacts__title', {
     opacity: 1,
   },
   duration: 1,
-  x: 350,
+  x: 150,
   y: -180,
   opacity: 0,
 });
@@ -154,7 +154,7 @@ gsap.from('.contacts__info', {
     opacity: 1,
   },
   duration: 1,
-  x: 350,
+  x: 150,
   opacity: 0,
 });
 
