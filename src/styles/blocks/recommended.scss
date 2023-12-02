@@ -40,18 +40,18 @@
     }
 
     &-image {
-      width: 280px;
+      width: 100%;
       height: 277px;
       margin-bottom: 32px;
       transition: all 0.3s;
 
       @include onTablet {
-        width: 392px;
+        width: 100%;
         height: 387px;
       }
 
       @include onDesctop {
-        width: 324px;
+        width: 100%;
         height: 320px;
       }
 

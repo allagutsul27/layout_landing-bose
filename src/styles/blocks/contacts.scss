@@ -66,6 +66,7 @@
   }
 
   &__textarea {
+    position: relative;
     font-family: inherit;
     padding: 14px 16px;
     width: 100%;
@@ -80,9 +81,8 @@
     color: $main-color;
     outline: none;
 
-    &::placeholder {
-      color: #7e7e83;
-    }
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
 
     &:hover {
       border-color: #d5d7de;
@@ -95,10 +95,36 @@
     &:focus {
       border-color: $main-color;
       color: $main-color;
+      z-index: 3;
 
       &::placeholder {
         color: $main-color;
       }
+    }
+
+    &::-webkit-scrollbar {
+      width: 10px;
+      position: absolute;
+      right: 0;
+    }
+
+    &::-webkit-scrollbar-track {
+      margin: 8px 0;
+      background: #f1f1f1;
+      border-radius: 16px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 16px;
+      background: #888;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    &::placeholder {
+      color: #7e7e83;
     }
   }
 
